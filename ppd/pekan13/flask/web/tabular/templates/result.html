@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<title>Disease Prediction</title>
+</head>
+<body>
+	   <center>
+	   <h2> Result Prediction </h2><p><p>
+                  <table border="1">
+					<tr>
+                        <td>Age</td>
+                        <td>
+                        {{age}}
+                        </td>
+                     </tr>
+					 <tr>
+                        <td>Sex</td>
+                        <td>
+                        {{sex}}
+                        </td>
+                     </tr>
+					 <tr>
+                        <td>ALB</td>
+                        <td>
+                        {{alb}}
+                        </td>
+                     </tr>
+					 <tr>
+                        <td>ALP</td>
+                        <td>
+                        {{alp}}
+                        </td>
+                     </tr>
+					 <tr>
+                        <td>ALT</td>
+                        <td>
+                        {{alt}}
+                        </td>
+                     </tr>
+					 <tr>
+                        <td>AST</td>
+                        <td>
+                        {{ast}}
+                        </td>
+                     </tr>
+					 <tr>
+                        <td>BIL</td>
+                        <td>
+                        {{bil}}
+                        </td>
+                     </tr>
+					 <tr>
+                        <td>CHE</td>
+                        <td>
+                        {{che}}
+                        </td>
+                     </tr>
+					 <tr>
+                        <td>CHOL</td>
+                        <td>
+                        {{chol}}
+                        </td>
+                     </tr>
+					 <tr>
+                        <td>CREA</td>
+                        <td>
+                        {{crea}}
+                        </td>
+                     </tr>
+					 <tr>
+                        <td>GGT</td>
+                        <td>
+                        {{ggt}}
+                        </td>
+                     </tr>
+					 <tr>
+                        <td>PROT</td>
+                        <td>
+                        {{prot}}
+                        </td>
+                     </tr>
+                     </tr>
+                     <tr>
+                        <td>Output prediction</td>
+                        <td>{{status}}</td>
+                     </tr>
+
+                  </table>
+
+<p><p>
+
+<img src="{{url_for('static', filename='telkom.jpg')}}" />
+<p>
+</body>
+</html>

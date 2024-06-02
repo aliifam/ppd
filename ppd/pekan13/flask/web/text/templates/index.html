@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<title>Sentiment analysis</title>
+</head>
+<body>
+
+	   <center>
+	   <h2> Sentiment analysis/ sentence classification </h2><p><p>
+	   
+<form method = "post" action = "/sentence/result/">
+        <table border="1">
+            <tr>
+                <td>Sentence</td>
+                <td>
+                <textarea name="sentence" rows="4" cols="50">I love the flight</textarea>
+                </td>
+                </tr>
+					 
+            <tr>
+                <td> </td>
+                <td><input type="reset" value="Reset"> 
+			    <input name = "submit" type = "submit" value = "Submit">
+                </td>
+                </tr>
+        </table>
+</form>
+<p><p>
+
+<img src="{{url_for('static', filename='dongguk.jpg')}}" />
+<p>
+</body>
+</html>

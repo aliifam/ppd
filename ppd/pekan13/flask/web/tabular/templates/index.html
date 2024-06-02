@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<title>Disease Prediction</title>
+</head>
+<body>
+	   <center>
+	   <h2> Disease Prediction </h2><p><p>
+	   <form method = "post" action = "/tabular/result/">
+                  <table border="1">
+                     <tr>
+                        <td>Age</td>
+                        <td>
+                        <input type = "text" name="age" value="30">
+                        </td>
+                     </tr>
+					 <tr>
+                        <td>Sex</td>
+                        <td>
+                        <input type = "text" name="sex" value="1">
+                        </td>
+                     </tr>
+					 <tr>
+                        <td>ALB</td>
+                        <td>
+                        <input type = "text" name="alb" value="39">
+                        </td>
+                     </tr>
+					 <tr>
+                        <td>ALP</td>
+                        <td>
+                        <input type = "text" name="alp" value="100">
+                        </td>
+                     </tr>
+					 <tr>
+                        <td>ALT</td>
+                        <td>
+                        <input type = "text" name="alt" value="28">
+                        </td>
+                     </tr>
+					 <tr>
+                        <td>AST</td>
+                        <td>
+                        <input type = "text" name="ast" value="143">
+                        </td>
+                     </tr>
+					 <tr>
+                        <td>BIL</td>
+                        <td>
+                        <input type = "text" name="bil" value="15">
+                        </td>
+                     </tr>
+					 <tr>
+                        <td>CHE</td>
+                        <td>
+                        <input type = "text" name="che" value="5">
+                        </td>
+                     </tr>
+					 <tr>
+                        <td>CHOL</td>
+                        <td>
+                        <input type = "text" name="chol" value="4">
+                        </td>
+                     </tr>
+					 <tr>
+                        <td>CREA</td>
+                        <td>
+                        <input type = "text" name="crea" value="72">
+                        </td>
+                     </tr>
+					 <tr>
+                        <td>GGT</td>
+                        <td>
+                        <input type = "text" name="ggt" value="400">
+                        </td>
+                     </tr>
+					 <tr>
+                        <td>PROT</td>
+                        <td>
+                        <input type = "text" name="prot" value="73">
+                        </td>
+                     </tr>
+                     <tr>
+                        <td> </td>
+                        <td><input type="reset" value="Reset"> <input name = "submit" type = "submit" value = "Submit">
+                        </td>
+                     </tr>
+                  </table>
+</form>
+<p><p>
+
+<img src="{{url_for('static', filename='telkom.jpg')}}" />
+<p>
+</body>
+</html>

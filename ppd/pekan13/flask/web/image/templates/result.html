@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<title>Image Prediction</title>
+</head>
+<body>
+
+	   <center>
+	   <h2> Result of Image Classification(Cat or Dog)</h2><p><p>
+	   
+
+                  <table border="1">
+				  <tr>
+                        <td>Your image </td>
+                        <td>
+                        <img src="{{url_for('static', filename=upload_name)}}" />
+                        </td>
+                     </tr>
+					 
+                     <tr>
+                        <td>Output prediction</td>
+                        <td>This image most likely belongs to {{status}} with a percent confidence {{confidence}}</td>
+                     </tr>
+
+                  </table>
+
+<p><p>
+
+<img src="{{url_for('static', filename='dongguk.jpg')}}" />
+<p>
+</body>
+</html>

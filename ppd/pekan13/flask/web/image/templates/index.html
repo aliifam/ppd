@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<title>Image Classification</title>
+</head>
+<body>
+
+	   <center>
+	   <h2> Cat Dog Image Classification </h2><p><p>
+	   
+<form method = "post" action = "/image/result/" enctype="multipart/form-data">
+                  <table border="1">
+                     <tr>
+                        <td>Upload your image here</td>
+                        <td>
+                        <input type="file" name="image" value="30">
+                        </td>
+                     </tr>
+					 
+                     <tr>
+                        <td> </td>
+                        <td><input type="reset" value="Reset"> <input name = "submit" type = "submit" value = "Upload">
+                        </td>
+                     </tr>
+                  </table>
+</form>
+<p><p>
+
+<img src="{{url_for('static', filename='dongguk.jpg')}}" />
+<p>
+</body>
+</html>
